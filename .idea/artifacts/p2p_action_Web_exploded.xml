@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="p2p_action:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/p2p_action_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="p2p_action/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="p2p_action" />
+          <element id="module-output" name="p2p_management" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="p2p_management/web/Web" />
+    </root>
+  </artifact>
+</component>

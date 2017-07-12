@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/p2pFinancial.iml" filepath="$PROJECT_DIR$/p2pFinancial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p_action/p2p_action.iml" filepath="$PROJECT_DIR$/p2p_action/p2p_action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p_cache/p2p_cache.iml" filepath="$PROJECT_DIR$/p2p_cache/p2p_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p_dao/p2p_dao.iml" filepath="$PROJECT_DIR$/p2p_dao/p2p_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p_domain/p2p_domain.iml" filepath="$PROJECT_DIR$/p2p_domain/p2p_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p_management/p2p_management.iml" filepath="$PROJECT_DIR$/p2p_management/p2p_management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p_service/p2p_service.iml" filepath="$PROJECT_DIR$/p2p_service/p2p_service.iml" />
+    </modules>
+  </component>
+</project>
