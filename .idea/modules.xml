@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/p2p_dao/p2p_dao.iml" filepath="$PROJECT_DIR$/p2p_dao/p2p_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/p2p_domain/p2p_domain.iml" filepath="$PROJECT_DIR$/p2p_domain/p2p_domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/p2p_home/p2p_home.iml" filepath="$PROJECT_DIR$/p2p_home/p2p_home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p_jms/p2p_jms.iml" filepath="$PROJECT_DIR$/p2p_jms/p2p_jms.iml" />
       <module fileurl="file://$PROJECT_DIR$/p2p_management/p2p_management.iml" filepath="$PROJECT_DIR$/p2p_management/p2p_management.iml" />
       <module fileurl="file://$PROJECT_DIR$/p2p_service/p2p_service.iml" filepath="$PROJECT_DIR$/p2p_service/p2p_service.iml" />
     </modules>

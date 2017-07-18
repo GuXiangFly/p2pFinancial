@@ -4,14 +4,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import com.guxiang.cache.BaseCacheService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
-import cn.itcast.cache.BaseCacheService;
+
 
 @Service("redisCache")
-public class RedisCacheService implements BaseCacheService{
+public class RedisCacheService implements BaseCacheService {
 
 	@Autowired
 	private RedisTemplate<String, Object> redisTemplate;
