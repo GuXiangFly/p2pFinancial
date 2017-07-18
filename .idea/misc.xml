@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/p2p_action" />
+    <file type="web" url="file://$PROJECT_DIR$/p2p_home" />
     <file type="web" url="file://$PROJECT_DIR$/p2p_management" />
   </component>
   <component name="MavenProjectsManager">

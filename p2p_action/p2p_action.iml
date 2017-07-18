@@ -116,7 +116,7 @@
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.2.1.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.2" level="project" />
+    <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: xml-resolver:xml-resolver:1.2" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.3.1" level="project" />
@@ -174,5 +174,6 @@
     <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.41" level="project" />
   </component>
 </module>

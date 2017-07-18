@@ -13,12 +13,14 @@
 		http://www.springframework.org/schema/data/jpa 
 		http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
+	<!--数据源-->
+	<context:property-placeholder location="classpath:config/config.properties"/>
 	<!-- 连接池配置 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-		<property name="jdbcUrl" value="${jdbc.url}" />
-		<property name="driverClass" value="${jdbc.driver}" />
-		<property name="user" value="${jdbc.user}" />
-		<property name="password" value="${jdbc.password}" />
+		<property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
+		<property name="driverClass" value="${jdbc.driverClass}"></property>
+		<property name="user" value="${jdbc.user}"></property>
+		<property name="password" value="${jdbc.password}"></property>
 		<!--初始化时获取的连接数，取值应在minPoolSize与maxPoolSize之间。Default: 3 -->
 		<property name="initialPoolSize" value="1" />
 		<!--连接池中保留的最小连接数。 -->
@@ -52,9 +54,9 @@
 		<property name="jpaVendorAdapter">
 			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
 				<!-- 数据库类型 -->
-				<property name="database" value="ORACLE" />
+				<property name="database" value="MYSQL" />
 				<!-- hibernate方言 -->
-				<property name="databasePlatform" value="org.hibernate.dialect.Oracle10gDialect" />
+				<property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
 				<!-- 自动建表 -->
 				<property name="generateDdl" value="true" />
 				<!-- 控制台打印SQL语句 -->
